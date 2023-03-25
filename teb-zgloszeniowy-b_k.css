@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Lato", sans-serif;
+    color: #03295a;
+    background: rgba(205,0,0,0.10) url("https://cdn.discordapp.com/attachments/1087700783044239370/1088364960591118336/teb-50-50.png") repeat fixed 0px 0px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 4rem;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+.form_imie {
+    position: relative;
+    color: #03295a;
+    font-family: 'Rubik Vinyl', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.form_nazwisko {
+    position: relative;
+    color: #03295a;
+    font-family: 'Rubik Vinyl', cursive;
+    text-align: center;
+    font-size: 30px;
+    right: 42px;
+}
+
+
+.rodzaj {
+    position: relative;
+    color: #03295a;
+    font-family: 'Rubik Vinyl', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.opis {
+    position: relative;
+    color: #03295a;
+    font-family: 'Rubik Vinyl', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.send_button {
+    position: relative;
+    color: #03295a;
+    font-family: 'Rubik Vinyl', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.clear_button {
+    position: relative;
+    color: #03295a;
+    font-family: 'Rubik Vinyl', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    position: relative;
+}
+
+footer {
+    background-color: #03295a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 450px;
+    text-decoration: none;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #footer-text {
+    margin: 0;
+    text-decoration: none;
+}
+
+.strona-glowna_link {
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #c00707;
+    background: linear-gradient(90deg, transparent, #c00707);
+    transition: width 0.3s;
+}
+
+a:hover .strona-glowna_link {
+    width: 100%;
+}

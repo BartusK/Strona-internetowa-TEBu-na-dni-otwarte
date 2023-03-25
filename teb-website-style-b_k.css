@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Lato", sans-serif;
+    color: #03295a;
+    background: rgba(205,0,0,0.10) url("https://cdn.discordapp.com/attachments/1087700783044239370/1088364960591118336/teb-50-50.png") repeat fixed 0px 0px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+#technik-logistyk-h{
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.logistyka {
+    text-align: left;
+    margin-top: 200px;
+    padding: 50px;
+    width: 100%;
+}
+
+.logistyk-photo {
+    float: left;
+    margin-left: 250px;
+    border: 5px inset #ff0000;
+    border-radius: 40px 40px 40px 40px;
+
+}
+
+.logistyk-text {
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+#technik-fotografii-h {
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.fotografia {
+    text-align: left;
+    margin-top: 200px;
+    padding: 50px;
+    width: 100%;
+}
+
+.fotografia-photo {
+    float: left;
+    margin-left: 250px;
+    border: 5px inset #ff0000;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.fotografia-text {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+#technik-turystyki-h {
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.turystyka {
+    text-align: left;
+    margin-top: 200px;
+    padding: 50px;
+}
+
+.turystyka-photo {
+    float: right;
+    margin-right: 250px;
+    border: 5px inset #ff0000;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.turystyka-text {
+    height: 100%;
+    width: 50%;
+    float: right;
+    
+}
+
+#technik-weterunarii-h {
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.weterynaria {
+    text-align: left;
+    margin-top: 200px;
+    padding: 50px;
+}
+
+.weterynaria-photo {
+    float: left;
+    margin-left: 250px;
+    border: 5px inset #ff0000;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.weterynaria-text {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+
+#technik-fryzjerstwa-h {
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.fryzjerstwo {
+    text-align: left;
+    margin-top: 200px;
+    padding: 50px;
+}
+
+.fryzjerstwo-photo {
+    float: right;
+    margin-right: 250px;
+    border: 5px inset #ff0000;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.fryzjerstwo-text {
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+#technik-informatyk-h {
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.informatyk {
+    text-align: left;
+    margin-top: 200px;
+    padding: 50px;
+}
+
+.informatyk-photo {
+    float: left;
+    margin-left: 250px;
+    border: 5px inset #ff0000;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.informatyk-text {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+footer {
+    background-color: #03295a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 450px;
+    text-decoration: none;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #footer-text {
+    margin: 0;
+    text-decoration: none;
+  }
+
+  .sekretariat_link {
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #c00707;
+    background: linear-gradient(90deg, transparent, #c00707);
+    transition: width 0.3s;
+}
+
+a:hover .sekretariat_link {
+    width: 100%;
+}
+
+.form-zglo_link {
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #c00707;
+    background: linear-gradient(90deg, transparent, #c00707);
+    transition: width 0.3s;
+}
+
+a:hover .form-zglo_link {
+    width: 100%;
+}
+
+.regulamin_link {
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #c00707;
+    background: linear-gradient(90deg, transparent, #c00707);
+    transition: width 0.3s;
+}
+
+a:hover .regulamin_link {
+    width: 100%;
+}
